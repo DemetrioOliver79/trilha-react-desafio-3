@@ -41,7 +41,7 @@ const Login = () => {
         <Container>
             <Column>
                 <Title>A plataforma para você aprender com experts, dominar as principais tecnologias
-                 e entrar mais rápido nas empresas mais desejadas.</Title>
+                e entrar mais rápido nas empresas mais desejadas.</Title>
             </Column>
             <Column>
                 <Wrapper>
@@ -52,7 +52,7 @@ const Login = () => {
                     {errors.email && <span>E-mail é obrigatório</span>}
                     <Input type="password" placeholder="Senha" leftIcon={<MdLock />}  name="senha" control={control} />
                     {errors.senha && <span>Senha é obrigatório</span>}
-                    <Button title="Entrar" variant="secondary" type="submit"/>
+                    <Button title="Entrar" variant="secondary" type="submit" />
                 </form>
                 <Row>
                     <EsqueciText>Esqueci minha senha</EsqueciText>
@@ -65,3 +65,4 @@ const Login = () => {
 }
 
 export { Login }
+
